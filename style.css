@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+/*holds the font of the nav-wrapper class, properties and color of the class=====================================================================================================*/
+.nav-wrapper {
+    font-family: 'Varela Round', sans-serif;
+    background: #35b2ab;
+    box-shadow: 0px 0px 10px #256c8a;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+/*weeb hub link =====================================================================================================*/
+.wh a { 
+    
+    height: 20;
+    color: #fdca63;
+    font-size: 30px;   
+    text-decoration: none;
+    
+}
+
+/*right is the shop abouts etc.=====================================================================================================*/
+.right{
+    display: flex;
+    margin-top: 5px;
+}
+
+/*change the size of all in the divs under nav wrapper and changes them all from lowecase to all uppercase=====================================================================================================*/
+.nav-wrapper > .right > div{
+    margin: 5px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    
+}
+
+/*adds transition to all under the class of nav link wrapper=====================================================================================================*/
+.nav-link-wrapper{
+    height: 17px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+/*removes dafault html decor and adds transition to all links=====================================================================================================*/
+.nav-link-wrapper a {
+ color: #fdca63;   
+ text-decoration: none;
+ transition: 0.5s;    
+}
+
+/*when pointer hovers adds a little underline underneath the navigation buttons=====================================================================================================*/
+.nav-link-wrapper:hover {
+    border-bottom: 2px solid white;
+  }
+
+
+  /*when pointer hovers adds a little underline underneath the navigation buttons=====================================================================================================*/
+  .nav-link-wrapper a:hover {
+    color: white;
+    }
+  
+/*background.=====================================================================================================*/
+  body{
+    background-image: url(Images/bg.png);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100vh;
+    
+}
+
+.contacts{
+    display: flex;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 20px;
+    border: 5px solid #35b2ab;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #9d7de3;
+    margin: 50px;
+    height: 45vh;
+    color: #fdca63;
+    background-image: url(Images/millielucie.gif) , url(Images/millielucie.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: left , right;
+
+}
+
+.us{
+ 
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 20px;
+    border: 5px solid #35b2ab;
+
+ 
+
+
+
+    background-color: #9d7de3;
+    margin: 25px;
+    height: 75vh;
+    color: #fdca63;
+    background-image: url(Images/millielucie.gif) , url(Images/millielucie.gif);
+    background-repeat: no-repeat;
+    background-size: 475px;
+    background-position-x: left , right;
+
+}
+
+.us h1{
+    display: flex;
+    justify-content: center;
+}
+.us h2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    padding-bottom: 10px;
+}
+.us h3{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
